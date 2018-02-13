@@ -20,7 +20,7 @@ public class MainActivityModel extends BaseObservable {
     //Añadir notifi para ser notificadas de los cambios
     public void setPrueba(String prueba) {
         this.prueba = prueba;
-        notifyPropertyChanged(BR.prueba);
+        notifyPropertyChanged(com.alejandrocorrero.databinding.BR.prueba);
     }
 
     private String prueba;
